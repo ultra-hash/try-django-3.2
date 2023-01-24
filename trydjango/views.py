@@ -7,7 +7,7 @@ HTML_STRING = """
 <h1>Hello World</h1>
 """
 
-def home(request):
+def home_view(request):
     """
     Take in a request (Django sends request)
     Return HTML as a responce (we pick to return the response)
